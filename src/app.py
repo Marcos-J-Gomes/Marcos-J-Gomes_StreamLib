@@ -317,9 +317,3 @@ with tab3:
 # FOOTER
 # ─────────────────────────────────────────────
 st.markdown("---")
-st.markdown(
-    "<div style='text-align:center;color:#aaa;font-size:0.8rem;'>"
-    "Desarrollado con Streamlit · Random Forest Classifier · Pima Indians Diabetes Dataset"
-    "</div>",
-    unsafe_allow_html=True,
-)
