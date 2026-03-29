@@ -14,7 +14,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-MODEL_PATH = Path("/workspaces/Marcos-J-Gomes_StreamLib/models/random_forest_regressor_n_estimators-300_RS-17.sav")
+MODEL_PATH = Path(__file__).parent.parent / "models" / "random_forest_regressor_n_estimators-300_RS-17.sav"
 
 st.markdown("""
 <style>
