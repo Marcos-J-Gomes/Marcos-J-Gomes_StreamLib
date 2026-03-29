@@ -9,7 +9,7 @@ from pathlib import Path
 
 st.set_page_config(
     page_title="Predictor de Diabetes",
-    page_icon="🩺",
+    page_icon="",
     layout="wide",
     initial_sidebar_state="expanded",
 )
